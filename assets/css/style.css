@@ -1,0 +1,95 @@
+@font-face {
+	font-family: "forgottenRegular";
+	src: url("../fonts/forgottenfuturistrg.otf");
+}
+@font-face {
+	font-family: "forgottenItalics";
+	src: url("../fonts/forgottenfuturistrgit.otf");
+}
+body {
+	background-color: transparent;
+	font-family: 'forgottenRegular';
+}
+
+html {
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-color: black;
+}
+
+nav {
+	opacity: .8;
+}
+
+.bot {
+	margin-bottom: 10px;
+}
+
+.container {
+	margin-top: 25px;
+}
+
+.form-group {
+	padding: 0 15px 0 15px;
+}
+
+.opacity {
+	opacity: 0.8;
+}
+
+.pad {
+	padding: 20px;
+}
+
+#pics {
+	text-align: center;
+}
+.roverSummary{
+	/*width: 700px;*/
+	/*margin-left: 225px;*/
+	font-size: 14px;
+	padding: 10px 10px 10px 10px;
+	background-color: white;
+	opacity: .8;
+}
+.aboutSummary{
+	width: 700px;
+	margin-left: 225px;
+	font-size: 22px;
+	padding: 10px 10px 10px 10px;
+	background-color: white;
+	opacity: .8;
+}
+#indexHeader{
+	font-size: 68px;
+	color: black;
+  	text-shadow:
+   	-.5px -.5px 0 white,  
+    .5px -.5px 0 white,
+    -.5px .5px 0 white,
+    .5px .5px 0 white;
+}
+#roverHeader{
+	margin: 0 0 25px 290px;
+	font-size: 68px;
+	color: black;
+  	text-shadow:
+   	-.5px -.5px 0 white,  
+    .5px -.5px 0 white,
+    -.5px .5px 0 white,
+    .5px .5px 0 white;
+}
+#aboutHeader{
+	margin: 0px 5px 25px 0;
+	font-size: 68px;
+	color: black;
+  	text-shadow:
+   	-.5px -.5px 0 white,  
+    .5px -.5px 0 white,
+    -.5px .5px 0 white,
+    .5px .5px 0 white;
+}
+#getPhotosButton{
+	margin-top: 50px;
+}
